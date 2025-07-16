@@ -25,8 +25,7 @@ const app = express();
 // Middleware
 // IMPORTANT: Configure CORS to allow requests from your specific Vercel frontend URL
 app.use(cors({
-  origin: 'YOUR_VERCEL_FRONTEND_URL' // <<< REPLACE THIS WITH YOUR ACTUAL VERCEl FRONTEND URL (e.g., https://your-app.vercel.app)
-  // Example: origin: 'https://mini-erp-lite-frontend-abcdef.vercel.app'
+  origin: 'https://mini-erp-lite-frontend.vercel.app' // <<< Your Vercel frontend URL
 }));
 
 app.use(express.json()); // Parse JSON bodies
